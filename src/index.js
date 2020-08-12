@@ -12,3 +12,5 @@ export { default as ArrowsHorizontal } from "./components/ArrowsHorizontal";
 export { default as ArrowsVertical } from "./components/ArrowsVertical";
 export { default as BarChart } from "./components/BarChart";
 export { default as Basket } from "./components/Basket";
+export { default as Battery } from "./components/Battery";
+export { default as BatteryCharging } from "./components/BatteryCharging";
