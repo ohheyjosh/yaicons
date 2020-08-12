@@ -6,4 +6,3 @@ export { default as ArrowDownRight } from "./components/ArrowDownRight";
 export { default as ArrowLeft } from "./components/ArrowLeft";
 export { default as ArrowRight } from "./components/ArrowRight";
 export { default as ArrowUp } from "./components/ArrowUp";
-export { default as ArrowUpLeft } from "./components/ArrowUpLeft";
