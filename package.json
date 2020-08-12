@@ -1,0 +1,50 @@
+{
+  "name": "yaicons",
+  "version": "0.2.0",
+  "description": "Yet Another Icon Set",
+  "author": "Josh Barnett <oh@heyjo.sh>",
+  "license": "MIT",
+  "main": "build/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:bundle": "rm -rf build && rollup --config rollup.config.js",
+    "build:es": "rm -rf dist && babel src --out-dir dist --copy-files",
+    "build": "concurrently \"npm:build:*\""
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "design",
+    "icons",
+    "inline",
+    "react",
+    "svg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohheyjosh/yaicons.git"
+  },
+  "homepage": "https://github.com/ohheyjosh/yaicons",
+  "bugs": {
+    "url": "https://github.com/ohheyjosh/yaicons/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@rollup/plugin-babel": "^5.1.0",
+    "babel-preset-env": "^1.7.0",
+    "concurrently": "^5.3.0",
+    "prettier": "^2.0.5",
+    "rollup": "^2.23.1"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
+}
