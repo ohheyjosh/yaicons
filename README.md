@@ -29,6 +29,19 @@ const App = () => {
 export default App;
 ```
 
+or
+
+```js
+import React from "react";
+import * as Icon from "yaicons";
+
+const App = () => {
+  return <Icon.Alert />;
+};
+
+export default App;
+```
+
 ## Inline Customization:
 
 ```js
