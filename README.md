@@ -35,4 +35,4 @@ export default App;
 <Alert color="red" size={96} strokeWidth={4} />
 ```
 
-(Yaicons can also be styled via the `.yaicons` class.)
+( Yaicons can also be styled via the `.yaicons` class. )
