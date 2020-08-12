@@ -10,3 +10,4 @@ export { default as ArrowUpLeft } from "./components/ArrowUpLeft";
 export { default as ArrowUpRight } from "./components/ArrowUpRight";
 export { default as ArrowsHorizontal } from "./components/ArrowsHorizontal";
 export { default as ArrowsVertical } from "./components/ArrowsVertical";
+export { default as BarChart } from "./components/BarChart";
