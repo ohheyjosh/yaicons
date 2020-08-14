@@ -14,3 +14,4 @@ export { default as BarChart } from "./components/BarChart";
 export { default as Basket } from "./components/Basket";
 export { default as Battery } from "./components/Battery";
 export { default as BatteryCharging } from "./components/BatteryCharging";
+export { default as Bell } from "./components/Bell";
