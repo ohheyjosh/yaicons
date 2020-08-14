@@ -16,14 +16,12 @@ const Bookmark = forwardRef(
         overflow="visible"
         {...rest}
       >
-        <g fill="none" fillRule="evenodd" stroke={color} strokeLinejoin="round">
-          <path
-            fill="none"
-            stroke={color}
-            strokeLinejoin="round"
-            d="M30 16h38a2 2 0 012 2v58.23a2 2 0 01-3.122 1.656L50.122 66.537a2 2 0 00-2.244 0L31.122 77.886A2 2 0 0128 76.23V18a2 2 0 012-2z"
-          />
-        </g>
+        <path
+          fill="none"
+          stroke={color}
+          strokeLinejoin="round"
+          d="M68 15.5c.69 0 1.315.28 1.768.732.452.453.732 1.078.732 1.768h0v58.23c0 .69-.28 1.315-.732 1.768a2.5 2.5 0 01-3.17.302h0L49.841 66.951a1.498 1.498 0 00-1.682 0h0L31.402 78.3a2.492 2.492 0 01-1.874.385A2.5 2.5 0 0127.5 76.23h0V18c0-.69.28-1.315.732-1.768A2.492 2.492 0 0130 15.5h0z"
+        />
       </svg>
     );
   }
