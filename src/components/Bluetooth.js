@@ -24,8 +24,8 @@ const Bluetooth = forwardRef(
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <path d="M81 27L49 48V6z" />
-          <path d="M81 27L49 48V6zM81 69L49 90V48zM17 27l32 21V6M49 90V48L17 69" />
+          <path d="M79 28L49 48V8z" />
+          <path d="M79 28L49 48V8zM79 68L49 88V48zM19 28l30 20V8M49 88V48L19 68" />
         </g>
       </svg>
     );
