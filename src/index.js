@@ -17,3 +17,4 @@ export { default as BatteryCharging } from "./components/BatteryCharging";
 export { default as Bell } from "./components/Bell";
 export { default as Bluetooth } from "./components/Bluetooth";
 export { default as Book } from "./components/Book";
+export { default as Bookmark } from "./components/Bookmark";
