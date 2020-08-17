@@ -19,4 +19,5 @@ export { default as Bluetooth } from "./components/Bluetooth";
 export { default as Book } from "./components/Book";
 export { default as Bookmark } from "./components/Bookmark";
 export { default as Building } from "./components/Building";
+export { default as Calendar } from "./components/Calendar";
 export { default as Cube } from "./components/Cube";
