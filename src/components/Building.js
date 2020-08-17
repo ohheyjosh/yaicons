@@ -20,7 +20,7 @@ const Building = forwardRef(
           fill="none"
           fillRule="evenodd"
           stroke={color}
-          strokeLinejoin="round"
+          StrokeLinejoin="round"
           transform="translate(4 8)"
         >
           <line x2="88" y1="80" y2="80" strokeLinecap="round" />

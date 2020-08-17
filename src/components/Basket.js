@@ -24,7 +24,7 @@ const Basket = forwardRef(
           <line x1="52" x2="52" y1="49" y2="65" strokeLinecap="round" />
           <line x1="68" x2="68" y1="49" y2="65" strokeLinecap="round" />
           <path
-            strokeLineJoin="round"
+            StrokeLinejoin="round"
             d="M56,2 L67.381966,2 C67.7607381,2 68.1070012,2.21400238 68.2763932,2.5527864 L80,26 M8,26 L19.7236068,2.5527864 C19.8929988,2.21400238 20.2392619,2 20.618034,2 L32,2"
           />
           <rect
@@ -32,7 +32,7 @@ const Basket = forwardRef(
             height="5"
             x="31.5"
             y="-.5"
-            strokeLineJoin="round"
+            StrokeLinejoin="round"
             rx="1"
           />
         </g>

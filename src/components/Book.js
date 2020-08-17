@@ -19,7 +19,7 @@ const Book = forwardRef(
         <g
           fill="none"
           fillRule="evenodd"
-          strokeLineJoin="round"
+          StrokeLinejoin="round"
           transform="translate(8 11)"
         >
           <path

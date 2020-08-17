@@ -20,7 +20,7 @@ const Cube = forwardRef(
           fill="none"
           fillRule="evenodd"
           strokeLinecap="round"
-          strokeLineJoin="round"
+          StrokeLinejoin="round"
           transform="translate(12 8)"
         >
           <line x1="1.473" x2="1.473" y1="58.177" y2="21.281" />

@@ -20,7 +20,7 @@ const Bluetooth = forwardRef(
           fill="none"
           fillRule="evenodd"
           strokeLinecap="round"
-          strokeLineJoin="round"
+          StrokeLinejoin="round"
           transform="translate(18 9)"
         >
           <polygon

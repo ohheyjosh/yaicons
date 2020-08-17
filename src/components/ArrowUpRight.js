@@ -24,7 +24,7 @@ const ArrowUpRight = forwardRef(
         >
           <line x1="19.25" x2="19.25" y2="64" />
           <path
-            strokeLineJoin="round"
+            StrokeLinejoin="round"
             d="M38.4264069,45.6 L20.627417,63.3989899 C19.8463684,64.1800385 18.5800385,64.1800385 17.7989899,63.3989899 L-3.90798505e-14,45.6"
           />
         </g>
