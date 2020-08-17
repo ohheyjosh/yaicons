@@ -16,12 +16,7 @@ const Book = forwardRef(
         overflow="visible"
         {...rest}
       >
-        <g
-          fill="none"
-          fillRule="evenodd"
-          StrokeLinejoin="round"
-          transform="translate(8 11)"
-        >
+        <g fill="none" StrokeLinejoin="round" transform="translate(8 11)">
           <path
             strokeLinecap="round"
             d="M47.2727273,72.4267631 L47.2727273,74.2133816 C47.2727273,75.2001037 46.4586995,76 45.4545455,76 L34.5454545,76 C33.5413005,76 32.7272727,75.2001037 32.7272727,74.2133816 L32.7272727,72.4267631 L32.7272727,72.4267631"

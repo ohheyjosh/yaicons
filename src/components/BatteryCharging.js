@@ -16,7 +16,7 @@ const BatteryCharging = forwardRef(
         overflow="visible"
         {...rest}
       >
-        <g fill="none" fillRule="evenodd" transform="translate(8 30)">
+        <g fill="none" transform="translate(8 30)">
           <rect width="73" height="37" x="-.5" y="-.5" rx="4" />
           <line x1="41" x2="33" y1="8" y2="16" strokeLinecap="round" />
           <line x1="39" x2="33" y1="20" y2="16" strokeLinecap="round" />

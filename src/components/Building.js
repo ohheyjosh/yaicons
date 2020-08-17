@@ -18,7 +18,6 @@ const Building = forwardRef(
       >
         <g
           fill="none"
-          fillRule="evenodd"
           stroke={color}
           StrokeLinejoin="round"
           transform="translate(4 8)"

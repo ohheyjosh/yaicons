@@ -18,7 +18,6 @@ const Cube = forwardRef(
       >
         <g
           fill="none"
-          fillRule="evenodd"
           strokeLinecap="round"
           StrokeLinejoin="round"
           transform="translate(12 8)"

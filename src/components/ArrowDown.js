@@ -18,7 +18,6 @@ const ArrowDown = forwardRef(
       >
         <g
           fill="none"
-          fillRule="evenodd"
           stroke={color}
           strokeLinecap="round"
           transform="translate(28 16.4)"

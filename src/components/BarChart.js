@@ -16,12 +16,7 @@ const BarChart = forwardRef(
         overflow="visible"
         {...rest}
       >
-        <g
-          fill="none"
-          fillRule="evenodd"
-          strokeLinecap="round"
-          transform="translate(10 12)"
-        >
+        <g fill="none" strokeLinecap="round" transform="translate(10 12)">
           <line x1=".5" x2=".5" y2="72" />
           <line
             x1="36.5"

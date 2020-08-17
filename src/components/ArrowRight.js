@@ -18,7 +18,6 @@ const ArrowRight = forwardRef(
       >
         <g
           fill="none"
-          fillRule="evenodd"
           stroke={color}
           strokeLinecap="round"
           transform="rotate(-90 42.2 25.7)"

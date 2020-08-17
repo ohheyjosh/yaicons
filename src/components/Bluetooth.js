@@ -18,7 +18,6 @@ const Bluetooth = forwardRef(
       >
         <g
           fill="none"
-          fillRule="evenodd"
           strokeLinecap="round"
           StrokeLinejoin="round"
           transform="translate(18 9)"

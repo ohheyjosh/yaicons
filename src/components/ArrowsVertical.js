@@ -16,12 +16,7 @@ const ArrowsVertical = forwardRef(
         overflow="visible"
         {...rest}
       >
-        <g
-          fill="none"
-          fillRule="evenodd"
-          strokeLinecap="round"
-          transform="rotate(-180 33.5 40)"
-        >
+        <g fill="none" strokeLinecap="round" transform="rotate(-180 33.5 40)">
           <line x1="19.25" x2="19.25" y1="1" y2="64" />
           <path
             StrokeLinejoin="round"
