@@ -16,8 +16,23 @@ const BarChart = forwardRef(
         overflow="visible"
         {...rest}
       >
-        <g fill="none" fillRule="evenodd" stroke={color} strokeLinecap="round">
-          <path d="M11.5 12v72M11.5 84h72M27.5 44v24M47.5 32v36M67.5 12v56" />
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeLinecap="round"
+          transform="translate(10 12)"
+        >
+          <line x1=".5" x2=".5" y2="72" />
+          <line
+            x1="36.5"
+            x2="36.5"
+            y1="36"
+            y2="108"
+            transform="rotate(-90 36.5 72)"
+          />
+          <line x1="16.5" x2="16.5" y1="32" y2="56" />
+          <line x1="36.5" x2="36.5" y1="20" y2="56" />
+          <line x1="56.5" x2="56.5" y2="56" />
         </g>
       </svg>
     );

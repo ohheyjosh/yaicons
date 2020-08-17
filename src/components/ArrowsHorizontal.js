@@ -16,11 +16,21 @@ const ArrowsHorizontal = forwardRef(
         overflow="visible"
         {...rest}
       >
-        <g fill="none" fillRule="evenodd" stroke={color} strokeLinecap="round">
-          <path d="M79.5 47.75h-63" />
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeLinecap="round"
+          transform="rotate(90 25.5 54)"
+        >
+          <line x1="19.25" x2="19.25" y1="1" y2="64" />
           <path
-            strokeLinejoin="round"
-            d="M34.885 66.926l-17.8-17.799a2 2 0 010-2.828l17.8-17.799M61.15 28.5l17.798 17.799a2 2 0 010 2.828L61.15 66.926"
+            strokeLineJoin="round"
+            d="M38.4264069,45.6152237 L20.627417,63.4142136 C19.8463684,64.1952621 18.5800385,64.1952621 17.7989899,63.4142136 L0,45.6152237"
+          />
+          <path
+            strokeLineJoin="round"
+            d="M38.4264069,0.965223689 L20.627417,18.7642136 C19.8463684,19.5452621 18.5800385,19.5452621 17.7989899,18.7642136 L1.13686838e-13,0.965223689"
+            transform="rotate(-180 19.213 10.158)"
           />
         </g>
       </svg>

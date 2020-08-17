@@ -20,12 +20,19 @@ const Archive = forwardRef(
           fill="none"
           fillRule="evenodd"
           stroke={color}
-          transform="translate(3 9)"
+          transform="translate(4 9)"
         >
-          <rect width={89} height={17} x={-0.5} y={-0.5} rx={1} />
-          <path d="M84 17v58.846c0 .637-.497 1.154-1.111 1.154H5.11C4.497 77 4 76.483 4 75.846V17" />
-          <path d="M60 17v14c0 1.105-.597 2-1.333 2H29.333C28.597 33 28 32.105 28 31V17" />
-          <path strokeLinecap="round" d="M28 47h32" />
+          <rect width="89" height="17" x="-.5" y="-.5" rx="1" />
+          <path d="M84,17 L84,75.8461538 C84,76.4834055 83.5025386,77 82.8888889,77 L5.11111111,77 C4.49746139,77 4,76.4834055 4,75.8461538 L4,17" />
+          <path d="M60,17 L60,31 C60,32.1045695 59.4030463,33 58.6666667,33 L29.3333333,33 C28.5969537,33 28,32.1045695 28,31 L28,17" />
+          <line
+            x1="44"
+            x2="44"
+            y1="31"
+            y2="63"
+            strokeLinecap="round"
+            transform="rotate(-90 44 47)"
+          />
         </g>
       </svg>
     );

@@ -16,11 +16,16 @@ const ArrowUp = forwardRef(
         overflow="visible"
         {...rest}
       >
-        <g fill="none" fillRule="evenodd" stroke={color} strokeLinecap="round">
-          <path d="M47.75 80.4v-64" />
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeLinecap="round"
+          transform="rotate(-180 33.5 40.2)"
+        >
+          <line x1="19.25" x2="19.25" y2="64" />
           <path
-            strokeLinejoin="round"
-            d="M28.574 34.8l17.799-17.799a2 2 0 012.828 0L67 34.8"
+            strokeLineJoin="round"
+            d="M38.4264069,45.6 L20.627417,63.3989899 C19.8463684,64.1800385 18.5800385,64.1800385 17.7989899,63.3989899 L-3.90798505e-14,45.6"
           />
         </g>
       </svg>

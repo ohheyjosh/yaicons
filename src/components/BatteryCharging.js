@@ -16,15 +16,12 @@ const BatteryCharging = forwardRef(
         overflow="visible"
         {...rest}
       >
-        <g
-          fill="none"
-          fillRule="evenodd"
-          stroke={color}
-          transform="translate(8 30)"
-        >
-          <rect width={73} height={37} x={-0.5} y={-0.5} rx={4} />
-          <path strokeLinecap="round" d="M41 8l-8 8M39 20l-6-4M39 20l-8 8" />
-          <path d="M72 10h6c1.105 0 2 .597 2 1.333v13.334c0 .736-.895 1.333-2 1.333h-6" />
+        <g fill="none" fillRule="evenodd" transform="translate(8 30)">
+          <rect width="73" height="37" x="-.5" y="-.5" rx="4" />
+          <line x1="41" x2="33" y1="8" y2="16" strokeLinecap="round" />
+          <line x1="39" x2="33" y1="20" y2="16" strokeLinecap="round" />
+          <line x1="39" x2="31" y1="20" y2="28" strokeLinecap="round" />
+          <path d="M72,10 L78,10 C79.1045695,10 80,10.5969537 80,11.3333333 L80,24.6666667 C80,25.4030463 79.1045695,26 78,26 L72,26" />
         </g>
       </svg>
     );

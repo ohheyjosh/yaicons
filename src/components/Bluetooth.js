@@ -18,14 +18,36 @@ const Bluetooth = forwardRef(
       >
         <g
           fill="none"
-          fillOpacity={0}
           fillRule="evenodd"
-          stroke={color}
           strokeLinecap="round"
-          strokeLinejoin="round"
+          strokeLineJoin="round"
+          transform="translate(18 9)"
         >
-          <path d="M79 28L49 48V8z" />
-          <path d="M79 28L49 48V8zM79 68L49 88V48zM19 28l30 20V8M49 88V48L19 68" />
+          <polygon
+            fill="none"
+            points="45 5 65 35 25 35"
+            transform="rotate(90 45 20)"
+          />
+          <polygon
+            fill="none"
+            points="45 5 65 35 25 35"
+            transform="rotate(90 45 20)"
+          />
+          <polygon
+            fill="none"
+            points="45 45 65 75 25 75"
+            transform="rotate(90 45 60)"
+          />
+          <polyline
+            fill="none"
+            points="15 5 35 35 -5 35"
+            transform="matrix(0 1 1 0 -5 5)"
+          />
+          <polyline
+            fill="none"
+            points="35 75 -5 75 15 45"
+            transform="matrix(0 1 1 0 -45 45)"
+          />
         </g>
       </svg>
     );
