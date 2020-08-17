@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
 import PropTypes from "prop-types";
 
-const Box = forwardRef(
+const Cube = forwardRef(
   ({ color = "currentColor", size = 32, strokeWidth = 4, ...rest }, ref) => {
     return (
       <svg
@@ -30,12 +30,12 @@ const Box = forwardRef(
   }
 );
 
-Box.propTypes = {
+Cube.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   strokeWidth: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 };
 
-Box.displayName = "Box";
+Cube.displayName = "Cube";
 
-export default Box;
+export default Cube;
