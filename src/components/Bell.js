@@ -16,12 +16,7 @@ const Bell = forwardRef(
         overflow="visible"
         {...rest}
       >
-        <g
-          fill="none"
-          fillOpacity="0"
-          stroke={color}
-          transform="translate(11 9)"
-        >
+        <g fill="none" stroke={color} transform="translate(11 9)">
           <rect
             width="72"
             height="7.901"
