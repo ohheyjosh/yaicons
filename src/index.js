@@ -24,4 +24,5 @@ export { default as Call } from "./components/Call";
 export { default as Camera } from "./components/Camera";
 export { default as Cart } from "./components/Cart";
 export { default as Cash } from "./components/Cash";
+export { default as Checkmark } from "./components/Checkmark";
 export { default as Cube } from "./components/Cube";
