@@ -36,4 +36,5 @@ export { default as Clock } from "./components/Clock";
 export { default as Cloud } from "./components/Cloud";
 export { default as Code } from "./components/Code";
 export { default as Computer } from "./components/Computer";
+export { default as Conversation } from "./components/Conversation";
 export { default as Cube } from "./components/Cube";
