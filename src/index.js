@@ -40,3 +40,4 @@ export { default as Conversation } from "./components/Conversation";
 export { default as Copy } from "./components/Copy";
 export { default as CreditCard } from "./components/CreditCard";
 export { default as Cube } from "./components/Cube";
+export { default as Database } from "./components/Database";
