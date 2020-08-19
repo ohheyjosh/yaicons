@@ -19,16 +19,19 @@ const Code = forwardRef(
         <g
           strokeLinecap="round"
           strokeLinejoin="round"
-          transform="rotate(90 31.5 48.5)"
+          transform="rotate(90 34 50)"
         >
-          <polyline points="15 48 31 64 47 48" />
-          <polyline points="15 0 31 16 47 0" transform="rotate(-180 31 8)" />
+          <polyline points="16 54 32 72 48 54" />
+          <polyline
+            points="16.484 0 32.484 18 48.484 0"
+            transform="rotate(-180 32.484 9)"
+          />
           <line
-            x1=".386"
-            x2="61.76"
-            y1="23.24"
-            y2="41.386"
-            transform="rotate(-1.44 31.073 32.313)"
+            x1=".633"
+            x2="63.491"
+            y1="25.509"
+            y2="45.633"
+            transform="rotate(-2.44 32.062 35.571)"
           />
         </g>
       </svg>
