@@ -16,7 +16,7 @@ const Circle = forwardRef(
         overflow="visible"
         {...rest}
       >
-        <circle cx="48" cy="48" r="36" fill="none" />
+        <circle cx="48" cy="48" r="36" />
       </svg>
     );
   }
