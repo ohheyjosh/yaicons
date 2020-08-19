@@ -30,4 +30,5 @@ export { default as ChevronLeft } from "./components/ChevronLeft";
 export { default as ChevronRight } from "./components/ChevronRight";
 export { default as ChevronUp } from "./components/ChevronUp";
 export { default as Circle } from "./components/Circle";
+export { default as CircleSlash } from "./components/CircleSlash";
 export { default as Cube } from "./components/Cube";
