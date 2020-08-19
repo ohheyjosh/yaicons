@@ -42,3 +42,4 @@ export { default as CreditCard } from "./components/CreditCard";
 export { default as Cube } from "./components/Cube";
 export { default as Database } from "./components/Database";
 export { default as Download } from "./components/Download";
+export { default as Eye } from "./components/Eye";
