@@ -25,4 +25,8 @@ export { default as Camera } from "./components/Camera";
 export { default as Cart } from "./components/Cart";
 export { default as Cash } from "./components/Cash";
 export { default as Checkmark } from "./components/Checkmark";
+export { default as ChevronDown } from "./components/ChevronDown";
+export { default as ChevronLeft } from "./components/ChevronLeft";
+export { default as ChevronRight } from "./components/ChevronRight";
+export { default as ChevronUp } from "./components/ChevronUp";
 export { default as Cube } from "./components/Cube";
