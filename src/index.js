@@ -33,4 +33,5 @@ export { default as Circle } from "./components/Circle";
 export { default as CircleSlash } from "./components/CircleSlash";
 export { default as Clipboard } from "./components/Clipboard";
 export { default as Clock } from "./components/Clock";
+export { default as Cloud } from "./components/Cloud";
 export { default as Cube } from "./components/Cube";
