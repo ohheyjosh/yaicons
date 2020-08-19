@@ -38,4 +38,5 @@ export { default as Code } from "./components/Code";
 export { default as Computer } from "./components/Computer";
 export { default as Conversation } from "./components/Conversation";
 export { default as Copy } from "./components/Copy";
+export { default as CreditCard } from "./components/CreditCard";
 export { default as Cube } from "./components/Cube";
