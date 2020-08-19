@@ -44,3 +44,4 @@ export { default as Database } from "./components/Database";
 export { default as Download } from "./components/Download";
 export { default as Eye } from "./components/Eye";
 export { default as File } from "./components/File";
+export { default as Folder } from "./components/Folder";
