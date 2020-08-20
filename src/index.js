@@ -45,3 +45,4 @@ export { default as Download } from "./components/Download";
 export { default as Eye } from "./components/Eye";
 export { default as File } from "./components/File";
 export { default as Folder } from "./components/Folder";
+export { default as Forward } from "./components/Forward";
