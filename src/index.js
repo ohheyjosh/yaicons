@@ -53,3 +53,4 @@ export { default as Gift } from "./components/Gift";
 export { default as Globe } from "./components/Globe";
 export { default as Heart } from "./components/Heart";
 export { default as Help } from "./components/Help";
+export { default as Home } from "./components/Home";
