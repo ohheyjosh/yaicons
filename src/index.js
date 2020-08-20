@@ -47,3 +47,5 @@ export { default as File } from "./components/File";
 export { default as Folder } from "./components/Folder";
 export { default as Forward } from "./components/Forward";
 export { default as Fullscreen } from "./components/Fullscreen";
+export { default as Gear } from "./components/Gear";
+export { default as Gears } from "./components/Gears";
