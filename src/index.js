@@ -51,3 +51,4 @@ export { default as Gear } from "./components/Gear";
 export { default as Gears } from "./components/Gears";
 export { default as Gift } from "./components/Gift";
 export { default as Globe } from "./components/Globe";
+export { default as Heart } from "./components/Heart";
