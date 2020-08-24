@@ -54,3 +54,4 @@ export { default as Globe } from "./components/Globe";
 export { default as Heart } from "./components/Heart";
 export { default as Help } from "./components/Help";
 export { default as Home } from "./components/Home";
+export { default as Hot } from "./components/Hot";
