@@ -58,3 +58,4 @@ export { default as Hot } from "./components/Hot";
 export { default as Inbox } from "./components/Inbox";
 export { default as Info } from "./components/Info";
 export { default as LightBulb } from "./components/LightBulb";
+export { default as Lock } from "./components/Lock";
