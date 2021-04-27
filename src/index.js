@@ -59,3 +59,4 @@ export { default as Inbox } from "./components/Inbox";
 export { default as Info } from "./components/Info";
 export { default as LightBulb } from "./components/LightBulb";
 export { default as Lock } from "./components/Lock";
+export { default as Mail } from "./components/Mail";
